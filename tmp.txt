@@ -1,0 +1,78 @@
+Removing test/docker/install_config.txt
+Removing test/docker/install_config-2017.2.txt
+Removing test/docker/README.md
+Removing test/docker/Dockerfile
+Auto-merging hls4ml/writer/vivado_writer.py
+CONFLICT (content): Merge conflict in hls4ml/writer/vivado_writer.py
+Auto-merging hls4ml/writer/vivado_accelerator_writer.py
+CONFLICT (content): Merge conflict in hls4ml/writer/vivado_accelerator_writer.py
+Auto-merging hls4ml/templates/vivado_accelerator/alveo/tcl_scripts/axi_stream_design.tcl
+CONFLICT (content): Merge conflict in hls4ml/templates/vivado_accelerator/alveo/tcl_scripts/axi_stream_design.tcl
+Auto-merging hls4ml/templates/vivado/vivado_synth.tcl
+CONFLICT (content): Merge conflict in hls4ml/templates/vivado/vivado_synth.tcl
+Removing hls4ml/templates/vivado/nnet_utils/README.md
+Auto-merging hls4ml/templates/vivado/build_prj.tcl
+CONFLICT (content): Merge conflict in hls4ml/templates/vivado/build_prj.tcl
+Auto-merging hls4ml/report/vivado_report.py
+CONFLICT (content): Merge conflict in hls4ml/report/vivado_report.py
+Auto-merging hls4ml/model/types.py
+CONFLICT (content): Merge conflict in hls4ml/model/types.py
+Auto-merging hls4ml/model/profiling.py
+Auto-merging hls4ml/model/graph.py
+CONFLICT (content): Merge conflict in hls4ml/model/graph.py
+Removing hls4ml/converters/tf_to_hls.py
+Removing hls4ml/converters/keras/qkeras_layers.py
+Auto-merging hls4ml/converters/__init__.py
+CONFLICT (content): Merge conflict in hls4ml/converters/__init__.py
+Auto-merging hls4ml/backends/fpga/passes/bram_weights.py
+Auto-merging hls4ml/backends/catapult/passes/broadcast_stream.py
+Removing example-prjs/sublayer/myproject_test.cpp
+Removing example-prjs/sublayer/firmware/weights/w4.h
+Removing example-prjs/sublayer/firmware/weights/w3.h
+Removing example-prjs/sublayer/firmware/weights/w2_1.h
+Removing example-prjs/sublayer/firmware/weights/w2_0.h
+Removing example-prjs/sublayer/firmware/weights/w2.h
+Removing example-prjs/sublayer/firmware/weights/w1.h
+Removing example-prjs/sublayer/firmware/weights/b4.h
+Removing example-prjs/sublayer/firmware/weights/b3.h
+Removing example-prjs/sublayer/firmware/weights/b2_1.h
+Removing example-prjs/sublayer/firmware/weights/b2_0.h
+Removing example-prjs/sublayer/firmware/weights/b2.h
+Removing example-prjs/sublayer/firmware/weights/b1.h
+Removing example-prjs/sublayer/firmware/parameters.h
+Removing example-prjs/sublayer/firmware/myproject.h
+Removing example-prjs/sublayer/firmware/myproject.cpp
+Removing example-prjs/sublayer/build_prj.tcl
+Removing example-prjs/higgs-1layer/myproject_test.cpp
+Removing example-prjs/higgs-1layer/myproject.tcl
+Removing example-prjs/higgs-1layer/firmware/weights/w2.h
+Removing example-prjs/higgs-1layer/firmware/weights/w1.h
+Removing example-prjs/higgs-1layer/firmware/weights/b2.h
+Removing example-prjs/higgs-1layer/firmware/weights/b1.h
+Removing example-prjs/higgs-1layer/firmware/parameters.h
+Removing example-prjs/higgs-1layer/firmware/myproject.h
+Removing example-prjs/higgs-1layer/firmware/myproject.cpp
+Removing example-prjs/higgs-1layer/build_prj.tcl
+Removing example-prjs/demo-conversion/keras-config.yml
+Removing example-prjs/demo-conversion/README.md
+Removing example-prjs/conv2d-1layer/myproject_test.cpp
+Removing example-prjs/conv2d-1layer/myproject.tcl
+Removing example-prjs/conv2d-1layer/firmware/weights/w2.h
+Removing example-prjs/conv2d-1layer/firmware/weights/w1.h
+Removing example-prjs/conv2d-1layer/firmware/weights/b2.h
+Removing example-prjs/conv2d-1layer/firmware/weights/b1.h
+Removing example-prjs/conv2d-1layer/firmware/parameters.h
+Removing example-prjs/conv2d-1layer/firmware/myproject.h
+Removing example-prjs/conv2d-1layer/firmware/myproject.cpp
+Removing example-prjs/conv2d-1layer/build_prj.tcl
+Removing example-prjs/conv-1layer/myproject_test.cpp
+Removing example-prjs/conv-1layer/myproject.tcl
+Removing example-prjs/conv-1layer/firmware/weights/w2.h
+Removing example-prjs/conv-1layer/firmware/weights/w1.h
+Removing example-prjs/conv-1layer/firmware/weights/b2.h
+Removing example-prjs/conv-1layer/firmware/weights/b1.h
+Removing example-prjs/conv-1layer/firmware/parameters.h
+Removing example-prjs/conv-1layer/firmware/myproject.h
+Removing example-prjs/conv-1layer/firmware/myproject.cpp
+Removing example-prjs/conv-1layer/build_prj.tcl
+Automatic merge failed; fix conflicts and then commit the result.

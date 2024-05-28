@@ -1,7 +1,7 @@
 #!/bin/bash
 
 failed=0
-basedir=vivado_prj
+basedir=hls_prj
 all=0
 
 function print_usage {
@@ -47,7 +47,7 @@ cd "${basedir}"
 
 rm -f *.tar.gz
 
-# Delete 
+# Delete
 for dir in */ ; do
    if [ ! -f "${dir}BUILD_FAILED" ]; then
       rm -rf "${dir}"

@@ -164,9 +164,11 @@ if {$opt(reset)} {
   open_solution "solution1"
 }
 catch {config_array_partition -maximum_size 4096}
-config_compile -name_max_length 60
-set_part {xcku115-flvb2104-2-i}
-create_clock -period 5 -name default
+config_compile -name_max_length 80
+set_part $part
+config_schedule -enable_dsp_full_reg=false
+create_clock -period $clock_period -name default
+set_clock_uncertainty $clock_uncertainty default
 
 
 if {$opt(csim)} {
@@ -227,11 +229,11 @@ if {$opt(validation)} {
 }
 
 if {$opt(export)} {
-  puts "***** EXPORT IP *****"
-  set time_start [clock clicks -milliseconds]
-  export_design -format ip_catalog
-  set time_end [clock clicks -milliseconds]
-  report_time "EXPORT IP" $time_start $time_end
+    puts "***** EXPORT IP *****"
+    set time_start [clock clicks -milliseconds]
+    export_design -format ip_catalog -version $version
+    set time_end [clock clicks -milliseconds]
+    report_time "EXPORT IP" $time_start $time_end
 }
 
 if {$opt(vsynth)} {

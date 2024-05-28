@@ -1,4 +1,5 @@
 *.pyc
+_version.py
 __pycache__
 build/
 dist/
@@ -12,3 +13,4 @@ docs/_build
 docs/autodoc/*
 hls4mlprj_*
 *~
+*.ipynb_checkpoints/
