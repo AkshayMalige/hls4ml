@@ -63,10 +63,13 @@ class VivadoAcceleratorConfig:
         inp_axi_t = self.input_type
         out_axi_t = self.output_type
 
+
         if inp_axi_t not in ['float', 'double']:
-            self.input_type = self._next_factor8_type(config.backend.convert_precision_string(inp_axi_t))
+            # self.input_type = self._next_factor8_type(config.backend.convert_precision_string(inp_axi_t))
+            self.input_type = self.input_type
         if out_axi_t not in ['float', 'double']:
-            self.output_type = self._next_factor8_type(config.backend.convert_precision_string(out_axi_t))
+            # self.output_type = self._next_factor8_type(config.backend.convert_precision_string(out_axi_t))
+            self.output_type = self.output_type
 
         if self.input_type == 'float':
             self.input_bitwidth = 32

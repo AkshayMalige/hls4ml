@@ -46,16 +46,17 @@ def _parse_build_script(path):
         for line in f.readlines():
             if 'set myproject' in line:
                 prj_dir = line.split('"')[-2] + '_prj'
-            if 'set project_name' in line:
-                top_func_name = line.split('"')[-2]
-                prj_dir = top_func_name + '_prj'
-            if 'set backend' in line:
-                backend_name = line.split('"')[-2]
+            # if 'set project_name' in line:
+            #     top_func_name = line.split('"')[-2]
+            #     prj_dir = top_func_name + '_prj'
+            # if 'set backend' in line:
+            #     backend_name = line.split('"')[-2]
 
-    if 'accelerator' in backend_name:
-        top_func_name += '_axi'
+    # if 'accelerator' in backend_name:
+    #     top_func_name += '_axi'
 
     return prj_dir, top_func_name
+
 
 
 def _find_solutions(sln_dir):
